@@ -41,3 +41,4 @@ src/
 *.iml
 out
 gen
+!/index.html
