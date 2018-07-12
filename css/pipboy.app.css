@@ -1,3 +1,41 @@
+@font-face {
+    font-family: Pipboy;
+    src: url("../font/monofonto.ttf");
+}
+
+body{
+    font-family: Pipboy, sans-serif;
+    color: #48ff23 ;
+    background: #292f28;
+}
+
+.navigation{
+    border-bottom: 2px solid;
+    margin: 0px 10px;
+}
+
+.navbar-expand-lg::before, .navbar-expand-lg::after{
+    height: 5px;
+    width: 2px;
+    content: "";
+    position: absolute;
+    display: block;
+    z-index: 5000;
+    background: #48ff23;
+    bottom: -6px;
+}
+
+.navbar-expand-lg::before{
+    left: 0;
+}
+.navbar-expand-lg::after{
+    right: 0;
+}
+
+ul > li.nav-item > a.nav-link{
+    color: #48ff23!important;
+}
+
 .center-image img{
     margin: auto;
     display: block;
@@ -12,4 +50,14 @@
     bottom: 0;
     width: calc(100% - 20px);
     margin: 5px;
+}
+
+.navbar-expand-lg ul.navbar-nav > li{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.navbar-nav{
+    width: 100%;
 }
