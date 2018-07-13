@@ -42,7 +42,7 @@ ul > li.nav-item > a.nav-link{
     width: 50%;
     margin: auto;
     font-size: 32px;
-    line-height: 22px;
+    line-height: 30px;
     padding-bottom: 0;
     z-index: 50;
     position: relative;
@@ -109,4 +109,23 @@ body::after{
 
 .nav.nav-tabs > .nav-item > .nav-link:hover{
     border: 1px solid transparent;
+}
+
+.navbar.navbar-light .navbar-nav{
+    margin: 0 200px;
+}
+
+.nav.nav-tabs > li > a{
+    font-size: 20px!important;
+    background: transparent !important;
+    border: 1px solid transparent !important;
+    padding: 5px 10px;
+}
+
+.nav.nav-tabs > li:nth-child(2) > a{
+    opacity: .5;
+}
+
+.nav.nav-tabs > li:nth-child(3) > a{
+    opacity: .2;
 }
