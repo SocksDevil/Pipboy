@@ -53,7 +53,8 @@ ul > li.nav-item > a.nav-link{
     display: block;
     position: relative;
     max-height: 300px;
-    margin-top: 100px;
+    margin-top: 0;
+    right: 25px;
     filter:grayscale(1) sepia(100%) hue-rotate(55deg) saturate(7) brightness(1) contrast(2);
 }
 
@@ -62,6 +63,8 @@ ul > li.nav-item > a.nav-link{
     bottom: 0;
     width: calc(100% - 20px);
     margin: 5px;
+    border: none;
+    font-size: 22px;
 }
 
 .navbar-expand-lg ul.navbar-nav > li{
@@ -128,4 +131,68 @@ body::after{
 
 .nav.nav-tabs > li:nth-child(3) > a{
     opacity: .2;
+}
+
+.level-progress{
+    width: 70% !important;
+    height: 10px;
+    border: 2px solid;
+    display: inline-block;
+}
+
+.pip-footer > div{
+    bottom: 10px;
+    background: rgba(16,255,0,.15);
+    padding:5px 10px;
+}
+
+.level-progress-indicator{
+    height: 6px;
+    background: #48ff23;
+    width: 70%;
+}
+
+
+.pip-footer > .col-6{
+    margin: 0 5px;
+    flex: 0 0 48%;
+}
+
+.center-image{
+    width: 100%;
+}
+
+.stat-bar{
+    width: 33%;
+    margin: auto;
+}
+
+.tab-pane > .stat-bars > .row > .col-12, .tab-pane > .stat-bars > .row > .col{
+    max-width: 35%;
+    margin: auto;
+    position: relative;
+}
+
+.stat-bars > .row > .col.bars{
+    margin-left: 0px;
+    margin-right: 0;
+    margin-bottom: 150px;
+    bottom: 40px;
+}
+
+.below{
+    bottom: 150px;
+}
+
+
+.left{
+    left: 200px;
+}
+
+.right{
+    right: 200px;
+}
+
+.row > .bars > .stat-bar > .level-progress > .level-progress-indicator{
+    width: 100%;
 }
