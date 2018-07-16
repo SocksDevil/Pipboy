@@ -196,3 +196,34 @@ body::after{
 .row > .bars > .stat-bar > .level-progress > .level-progress-indicator{
     width: 100%;
 }
+
+
+.row.middle-bottom{
+    height: 40px;
+}
+
+.row > .below{
+    bottom: 40px   ;
+}
+
+.row.icons{
+    margin: auto;
+    max-width: 50%;
+    background: rgba(16,255,0,.15)  ;
+}
+
+.row.icons > .transparent {
+    background: #292f28;
+}
+
+.row .img-responsive {
+    width: 100%;
+    filter: grayscale(1) brightness(200) contrast(0) sepia(100%) hue-rotate(55deg) saturate(20);
+    margin-bottom: 10%;
+}
+
+.row .sm-img{
+    width: 40px;
+    text-align: center;
+}
+
