@@ -227,3 +227,28 @@ body::after{
     text-align: center;
 }
 
+#status.tab-pane.full{
+    width: 100%;
+    max-width: 100%;
+}
+
+.item-list{
+    float: left;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.item-list li a {
+    display: block;
+    width: 300px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    color: #48ff23 ;
+}
+
+.item-list li a:hover{
+    text-decoration: none;
+    color: #292f28;
+    background: #48ff23;
+}
